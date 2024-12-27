@@ -1,5 +1,5 @@
-var botId = "st-12345";
-var botName = "testBot";
+var botId = "st-573f19b1-9438-5909-a4f6-a7b47834291f";
+var botName = "Ask Iris 1";
 var sdk = require("./lib/sdk");
 
 /*
