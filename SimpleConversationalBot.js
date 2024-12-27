@@ -15,7 +15,8 @@ module.exports = {
 
     on_user_message : function(requestId, data, callback) {
         if (data.message === "Hi") {
-            data.message = "Hello";
+            // data.message = "Hello";
+            console.log("log from botKit");
             //Sends back 'Hello' to user.
             return sdk.sendUserMessage(data, callback);
         } else if(!data.agent_transfer){
@@ -31,7 +32,6 @@ module.exports = {
             data.message = 'The Bot says hello!';
         }
         //Sends back the message to user
-        
         return sdk.sendUserMessage(data, callback);
     },
     on_agent_transfer : function(requestId, data, callback){
