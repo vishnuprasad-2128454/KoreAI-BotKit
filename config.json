@@ -11,7 +11,7 @@
     },
     "credentials": {
         "apikey": "pXRujjHWs6YHUnRIDWco413RqWSUaLqV9zEQRJIIFbM=",
-        "appId": "cs-592c7d71-5504-5330-aff7-2fedfc550fef",
+        "appId": "cs-592c7d71-5504-5330-aff7-2fedfc550fef"
     },
     "jwt": {
         "jwtAlgorithm": "HS256",
