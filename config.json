@@ -15,7 +15,7 @@
     },
     "jwt": {
         "jwtAlgorithm": "HS256",
-        "jwt-expiry": 300,
+        "jwt-expiry": 300
     },
     "redis": {
         "options": {
